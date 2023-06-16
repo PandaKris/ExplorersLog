@@ -50,6 +50,7 @@ struct ContentView: View {
                     .background(.black)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
+                Text("Yus jgn ngerusak2")
             }.padding()
         }
     }
