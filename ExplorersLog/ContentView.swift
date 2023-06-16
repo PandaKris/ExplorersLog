@@ -43,6 +43,8 @@ struct ContentView: View {
                             .padding(.horizontal, 20)
                             .padding(.bottom, 20)
                             .foregroundColor(.white)
+                        Text("apa sih ini")
+                            .foregroundColor(.red)
                     }
                     .background(.black)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
