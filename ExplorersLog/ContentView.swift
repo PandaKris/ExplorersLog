@@ -51,6 +51,7 @@ struct ContentView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
                 Text("Yus jgn ngerusak2")
+                Text("Mungkin sekali ini saja")
             }.padding()
         }
     }
