@@ -8,14 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
+    
+    @StateObject var explorerData = ExplorerData()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView{
+            LazyVGrid(columns: columns, spacing: 20) {
+                ForEach(explorerData.explorers, id:\.self) { explorer in
+                    VStack{
+                        AsyncImage(
+                            url: URL(string: explorer.imageUrl),
+                            content: { image in
+                                image.resizable()
+                                    .scaledToFit()
+                                    .frame(width: .infinity, height: 200)
+                                    .background(.black)
+                            }, placeholder: {
+                                ProgressView()
+                                    .background(.white)
+                                    .frame(height: 200)
+                            }
+                        )
+                        Text(explorer.name)
+                            .font(.headline)
+                            .padding(.horizontal, 20)
+                            .foregroundColor(.white)
+                        Text(explorer.description)
+                            .font(.subheadline)
+                            .padding(.horizontal, 20)
+                            .padding(.bottom, 20)
+                            .foregroundColor(.white)
+                    }
+                    .background(.black)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+            }.padding()
         }
-        .padding()
     }
 }
 

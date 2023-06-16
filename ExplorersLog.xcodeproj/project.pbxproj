@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674BAEAB2A3C04FA00788932 /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BAEAA2A3C04FA00788932 /* Explorer.swift */; };
+		674BAEAD2A3C055100788932 /* ExplorerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BAEAC2A3C055100788932 /* ExplorerData.swift */; };
 		674CECBD2A3896D600CCFE68 /* ExplorersLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674CECBC2A3896D600CCFE68 /* ExplorersLogApp.swift */; };
 		674CECBF2A3896D600CCFE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674CECBE2A3896D600CCFE68 /* ContentView.swift */; };
 		674CECC12A3896D700CCFE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674CECC02A3896D700CCFE68 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		674BAEAA2A3C04FA00788932 /* Explorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explorer.swift; sourceTree = "<group>"; };
+		674BAEAC2A3C055100788932 /* ExplorerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerData.swift; sourceTree = "<group>"; };
 		674CECB92A3896D600CCFE68 /* ExplorersLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExplorersLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		674CECBC2A3896D600CCFE68 /* ExplorersLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorersLogApp.swift; sourceTree = "<group>"; };
 		674CECBE2A3896D600CCFE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		674CECBB2A3896D600CCFE68 /* ExplorersLog */ = {
 			isa = PBXGroup;
 			children = (
+				674BAEAA2A3C04FA00788932 /* Explorer.swift */,
+				674BAEAC2A3C055100788932 /* ExplorerData.swift */,
 				674CECBC2A3896D600CCFE68 /* ExplorersLogApp.swift */,
 				674CECBE2A3896D600CCFE68 /* ContentView.swift */,
 				674CECC02A3896D700CCFE68 /* Assets.xcassets */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				674BAEAD2A3C055100788932 /* ExplorerData.swift in Sources */,
+				674BAEAB2A3C04FA00788932 /* Explorer.swift in Sources */,
 				674CECBF2A3896D600CCFE68 /* ContentView.swift in Sources */,
 				674CECBD2A3896D600CCFE68 /* ExplorersLogApp.swift in Sources */,
 			);
