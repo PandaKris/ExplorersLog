@@ -13,6 +13,7 @@
 		674CECBF2A3896D600CCFE68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674CECBE2A3896D600CCFE68 /* ContentView.swift */; };
 		674CECC12A3896D700CCFE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674CECC02A3896D700CCFE68 /* Assets.xcassets */; };
 		674CECC42A3896D700CCFE68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674CECC32A3896D700CCFE68 /* Preview Assets.xcassets */; };
+		B1B6257A2A3C46F000711B32 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B625792A3C46F000711B32 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		674CECBE2A3896D600CCFE68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		674CECC02A3896D700CCFE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		674CECC32A3896D700CCFE68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B625792A3C46F000711B32 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				674BAEAA2A3C04FA00788932 /* Explorer.swift */,
 				674BAEAC2A3C055100788932 /* ExplorerData.swift */,
+				B1B625792A3C46F000711B32 /* ProfileView.swift */,
 				674CECBC2A3896D600CCFE68 /* ExplorersLogApp.swift */,
 				674CECBE2A3896D600CCFE68 /* ContentView.swift */,
 				674CECC02A3896D700CCFE68 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				674BAEAD2A3C055100788932 /* ExplorerData.swift in Sources */,
 				674BAEAB2A3C04FA00788932 /* Explorer.swift in Sources */,
+				B1B6257A2A3C46F000711B32 /* ProfileView.swift in Sources */,
 				674CECBF2A3896D600CCFE68 /* ContentView.swift in Sources */,
 				674CECBD2A3896D600CCFE68 /* ExplorersLogApp.swift in Sources */,
 			);
