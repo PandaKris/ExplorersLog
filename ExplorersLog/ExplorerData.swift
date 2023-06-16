@@ -19,7 +19,7 @@ class ExplorerData: ObservableObject {
 
         Explorer(
             name: "ThisPersonDoesNotExist",
-            description: "ini orang keren bgt",
+            description: "Let's try this API",
             imageUrl: "https://thispersondoesnotexist.com/"
         ),
         
