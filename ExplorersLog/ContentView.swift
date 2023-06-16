@@ -26,7 +26,7 @@ struct ContentView: View {
                             content: { image in
                                 image.resizable()
                                     .scaledToFit()
-                                    .frame(width: .infinity, height: 200)
+                                    .frame(height: 200)
                                     .background(.black)
                             }, placeholder: {
                                 ProgressView()
