@@ -43,6 +43,7 @@ struct ContentView: View {
                             .padding(.horizontal, 20)
                             .padding(.bottom, 20)
                             .foregroundColor(.white)
+                            .lineLimit(1)
                         Text("apa sih ini")
                             .foregroundColor(.red)
                     }
