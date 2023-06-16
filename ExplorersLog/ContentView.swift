@@ -47,6 +47,9 @@ struct ContentView: View {
                     .background(.black)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                 }
+                Text("Uhuy")
+                Text("Tituttt")
+                Text("Ehe")
             }.padding()
         }
     }
